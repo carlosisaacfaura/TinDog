@@ -1,0 +1,197 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  line-height: 1.5;
+}
+
+/* HEADINGS */
+
+h3.big-heading {
+  text-align: center;
+}
+
+.big-heading {
+  font-size: 4rem;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+/* NavigationBar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-family: 'Montserrat-light';
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* SECTIONS */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Download Buttons */
+.btn {
+  margin: 5% 3% 5% 0%
+}
+
+#title .btn {
+  text-align: center;
+}
+
+/* Photo */
+.iphone {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+  width: 20%;
+}
+
+@media (max-width: 1250px) {
+  .iphone {
+    position: static;
+    width: 70%;
+    transform: rotate(0);
+  }
+}
+
+/* Features */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.img-features {
+  color: #ef8172;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0 15px 0;
+}
+
+.img-features:hover {
+  color: #ff4c68;
+}
+
+.features-title {
+  text-align: center;
+  font-family: 'Montserrat-bold';
+  font-size: 1.5rem;
+}
+
+.features-description {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.card-title {
+  font-size: 3rem;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.price {
+  font-size: 3rem;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.pricing-buttons {
+  width: 75%;
+  height: 17%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer section */
+
+
+#footer {
+  text-align: center;
+}
+
+.cr-icons {
+  margin: 20px 12px;
+  text-align: center;
+}
